@@ -110,7 +110,7 @@ library(ggplot2)
 # To load it into your R environment, 
 # use the read.delim() function like so:
 
-myData <- read.delim(file = "Rbootcamp/class1.R")
+myData <- read.delim(file = "Rbootcamp/class1.sample_data.txt")
 
 # Take a look at the data. It contains 
 # gene expression values for 10 genes
@@ -118,6 +118,11 @@ myData <- read.delim(file = "Rbootcamp/class1.R")
 # three control samples.
 
 myData
+
+# What kind of object is this? Use class() function 
+# to find out.
+
+class(myData)
 
 # Let's make a heatmap of these values. 
 # The function for that is called
@@ -133,78 +138,6 @@ myDataMat <- as.matrix(myData)
 # Now we can plot these data as a heatmap:
 
 heatmap(myDataMat)
-
-# I prefer pheatmap to the basic heatmap function
-# that comes with R. It is not installed by
-# default, but we can install it with 
-# install.packages()
-
-install.packages("pheatmap")
-
-# Once it is installed, we need to
-# "load" the pheatmap library:
-
-library(pheatmap)
-
-# Now take a look at the default
-# heatmap that you can make with pheatmap:
-
-pheatmap(myDataMat)
-
-# Not bad. But can customize the 
-# plot. You do this with 
-# arguments, which you put in the 
-# parentheses, separated by commas.
-# The argument to add a main title
-# is called "main". Let's try it:
-
-pheatmap(myDataMat, main = "My RNA-Seq Experiment")
-
-# I don't want to reorder the columns.
-# Let's turn that off. That argument
-# is called "cluster_cols". We want
-# to make that false.
-
-pheatmap(myDataMat, main = "My RNA-Seq Experiment", cluster_cols = FALSE)
-
-# Better, but I am not crazy about these colors,
-# but we can change them with "color" argument.
-
-pheatmap(myDataMat, main = "My RNA-Seq Experiment", cluster_cols = FALSE, color = heat.colors(256))
-
-# When we have a lot of arguments, we can put
-# them on separate lines. This makes it more
-# readable. Here is an example:
-
-pheatmap(myDataMat, 
-         main = "My RNA-Seq Experiment", 
-         cluster_cols = FALSE,
-         color = heat.colors(256))
-
-
-# I'm not crazy about those colors. Let's try another:
-
-pheatmap(myDataMat, 
-         main = "My RNA-Seq Experiment", 
-         cluster_cols = FALSE,
-         color = cm.colors(256))
-
-# I'm not crazy about that either. Let's add a library  called RColorBrewer to give us more options:
-
-library("RColorBrewer")
-
-# Now we will use RColorBrewer to choose a better color scale:
-
-pheatmap(myDataMat, 
-         main = "My RNA-Seq Experiment", 
-         cluster_cols = FALSE,
-         brewer.pal("Blues",n=9))
-
-
-# If we are happy with our heatmap, we can 
-# it as a PDF or other image format. In
-# Rstudio, look for the "Export" button
-# just above your plot.
 
 # Great job! Now you are using R!
 
