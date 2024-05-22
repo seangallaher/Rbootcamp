@@ -6,7 +6,9 @@ with little or no coding experience. I hope you
 find it helpful.
 
 Cheers,
+
 Sean D. Gallaher
-gallaher@berkeley.edu
+
+gallaher at berkeley dot edu
 
 
