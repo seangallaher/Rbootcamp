@@ -1,2 +1,12 @@
 # Rbootcamp
-Intro to data analysis in R
+
+Welcome to my R bootcamp. This  is designed to be a
+introduction to data analysis in R for biologists
+with little or no coding experience. I hope you 
+find it helpful.
+
+Cheers,
+Sean D. Gallaher
+gallaher@berkeley.edu
+
+
