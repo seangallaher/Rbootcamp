@@ -19,7 +19,7 @@
 # Date: 28-MAY-2024
 
 
-# load some data and put it into a matrix
+# put some data into a matrix
 # called myDataMatrix
 
 myDataMatrix<-matrix(c(
@@ -42,11 +42,59 @@ myDataMatrix<-matrix(c(
   9.43617,11.8926,10.3493,
   19.3051,17.3351,16.6333,
   19.3054,20.6907,20.6508,
-  15.0914,14.4205,16.4572),nrow=10)
+  15.0914,14.4205,16.4572),ncol=2)
 
-# Find the maximum values of myDataMatrix
+# Find the maximum value in myDataMatrix
 
 max(myDataMatrix)
+
+# Make a basic dot plot of your data
+
+plot(myDataMatrix)
+
+
+##############################################
+
+
+# Often, you will need to import your data into
+# R in order to process it. One way is to "read"
+# in a text file of data. There is a text file
+# in the Rbootcamp folder
+# that contains sample RNA-Seq data. 
+# To load it into your R environment, 
+# use the read.table() function like so:
+
+myData <- read.table(file = "Rbootcamp/class2.sample_data.txt")
+
+# Take a look at the data. It contains 
+# gene expression values for 10 genes
+# for three experimental and 
+# three control samples.
+
+myData
+
+# Let's make a heatmap of these values. 
+# The function for that is called
+# heatmap(). 
+
+heatmap(myData)
+
+# Oh-no! That doesn't work. The heatmap() 
+# function only works with a numeric matrix.
+# Is myData a matrix? 
+
+class(myData)
+
+# No, it is a data frame. To convert to a 
+# matrix, we use the as.matrix() function.
+
+myDataMat <- as.matrix(myData)
+
+# Now we can plot these data as a heatmap:
+
+heatmap(myDataMat)
+
+#######################################
 
 
 # R comes with many functions built in, 
@@ -60,8 +108,7 @@ max(myDataMatrix)
 # sophisticated figures than the base functions. 
 # You load it with the library() function:
 
-library(ggplot2)
-
+library(pheatmap)
 
 # If the library you want has never been installed,
 # you have to install first (once) before you 
@@ -70,72 +117,7 @@ library(ggplot2)
 
 install.packages("pheatmap")
 
-
-
-# Often, you will need to import your data into
-# R in order to process it. One way is to "read"
-# in a text file of data. There is a text file
-# in the Rbootcamp folder
-# that contains sample RNA-Seq data. 
-# To load it into your R environment, 
-# use the read.delim() function like so:
-
-myData <- read.delim(file = "Rbootcamp/class2.sample_data.txt")
-
-# Take a look at the data. It contains 
-# gene expression values for 10 genes
-# for three experimental and 
-# three control samples.
-
-myData
-
-# Let's make a heatmap of these values. 
-# The function for that is called
-# heatmap(). It requires the data to 
-# be formatted as a "matrix", which
-# is a way of storing numbers in 2-D
-# (i.e. with rows and columns).
-# So first we convert myData to a matrix
-# with a function called as.matrix()
-
-myDataMat <- as.matrix(myData)
-
-# Now we can plot these data as a heatmap:
-
-heatmap(myDataMat)
-
-# Great job! Now you are using R!
-# Take a look at the data. It contains 
-# gene expression values for 10 genes
-# for three experimental and 
-# three control samples.
-
-myData
-
-# Let's make a heatmap of these values. 
-# The function for that is called
-# heatmap(). It requires the data to 
-# be formatted as a "matrix", which
-# is a way of storing numbers in 2-D
-# (i.e. with rows and columns).
-# So first we convert myData to a matrix
-# with a function called as.matrix()
-
-myDataMat <- as.matrix(myData)
-
-# Now we can plot these data as a heatmap:
-
-heatmap(myDataMat)
-
-# I prefer pheatmap to the basic heatmap function
-# that comes with R. It is not installed by
-# default, but we can install it with 
-# install.packages()
-
-install.packages("pheatmap")
-
-# Once it is installed, we need to
-# "load" the pheatmap library:
+# Now, we can load pheatmap()
 
 library(pheatmap)
 
@@ -144,7 +126,7 @@ library(pheatmap)
 
 pheatmap(myDataMat)
 
-# Not bad. But can customize the 
+# Not bad. But we can customize the 
 # plot. You do this with 
 # arguments, which you put in the 
 # parentheses, separated by commas.
