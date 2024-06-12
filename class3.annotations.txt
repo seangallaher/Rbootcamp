@@ -1,0 +1,201 @@
+Cre_GID	Cre_symbol	Cre_defline
+Cre01.g000050	RWP14	RWP-RK transcription factor
+Cre01.g000150	ZRT2	Zinc-nutrition responsive permease transporter
+Cre01.g000200	NA	"Esterase, SGNH hydrolase-type"
+Cre01.g000250	NA	Predicted SNARE-associated Golgi protein
+Cre01.g000300	CGI58	Esterase/lipase/thioesterase
+Cre01.g000350	NA	possible oxidoreductase
+Cre01.g000400	NA	Arabinose chain extension enzyme like protein 3
+Cre01.g000450	NA	Arabinose chain extension enzyme like protein 2
+Cre01.g000500	NA	Arabinose chain extension enzyme like protein 5
+Cre01.g000550	NA	Putative nucleotide-diphospho-sugar transferase
+Cre01.g000600	NA	"Predicted WD-4 repeat family protein / notchless protein, putative"
+Cre01.g000650	AMX2	Copper amine oxidase
+Cre01.g000700	NA	zinc finger protein
+Cre01.g000750	NA	zinc finger protein
+Cre01.g000800	CGL136	Conserved in the Green Lineage
+Cre01.g000850	CPLD38	cytochrome b6f biogenesis protein
+Cre01.g000900	CPLD20	Conserved in the Plant Lineage and Diatoms
+Cre01.g000950	NA	Major facilitator superfamily transporter
+Cre01.g001200	NA	Mitogen-Activated Protein Kinase Kinase Kinase
+Cre01.g001300	NA	ankryin repeat containing protein
+Cre01.g001350	NA	ABC transporter
+Cre01.g001400	NA	Zinc-metallopeptidase-like protein
+Cre01.g001450	NA	Predicted protein
+Cre01.g001501	RAA11	psaA mRNA trans-splicing factor of subcomplex I
+Cre01.g001550	CIF3	Chloroplast translation initiation factor 3
+Cre01.g001600	NA	Predicted protein containing BTB/POZ fold domain (involved in protein binding)
+Cre01.g001650	NA	Predicted ankryin-repeat containing protein
+Cre01.g001657	PF22	Dynein Assembly factor PF22
+Cre01.g001750	TIG1	chloroplast trigger factor
+Cre01.g001800	FAP403	Flagellar Associated Protein 403
+Cre01.g001950	NA	Predicted protein with 3-phosphoshikimate1-carboxyvinyltransferase core domain
+Cre01.g001983	NA	C2-domain containing protein
+Cre01.g002050	NA	Acid phosphatase
+Cre01.g002200	RPB6	Subunit of DNA-directed RNA polymerase
+Cre01.g002250	NA	Histone acetyltransferase
+Cre01.g002300	CYN19B	Cyclophilin 19-2
+Cre01.g002350	NAE1	RUB1/NEDD8 E1 activating enzyme
+Cre01.g002400	NA	Putative triacylglycerol lipase
+Cre01.g002500	COP21	Chlamyopsin 2/1
+Cre01.g002550	FAP335	Kinase-like Flagellar Associated Protein 335
+Cre01.g002787	NA	Scavenger receptor cysteine-rich protein
+Cre01.g003050	SEC8	Component of the Exocyst Complex
+Cre01.g003150	NA	protein of unknown function
+Cre01.g003250	NA	Probable transposon-derived protein of Chlamydomonas-Specific family B
+Cre01.g003800	NA	MAP kinase kinase kinase
+Cre01.g003850	CYP747A1	"Cytochrome P450, CYP197 superfamily"
+Cre01.g004250	TCTEX1	Flagellar inner arm dynein light chain
+Cre01.g004300	ASN1	Asparagine synthase
+Cre01.g004350	HLM1	Histone-lysine N-methyltransferase
+Cre01.g004400	NA	Expressed protein of unknown function
+Cre01.g004450	CPLD42	conserved expressed membrane protein
+Cre01.g004500	LEU1L	"Isopropylmalate dehydratase, large subunit"
+Cre01.g004550	FAP190	Flagellar Associated Protein 190
+Cre01.g004600	RWP12	RWP-RK transcription factor
+Cre01.g004850	NA	Transcription elongation factor
+Cre01.g004900	NA	Similar to Putatative Protease/Amidase
+Cre01.g004950	NA	Conserved Protein with Putative intracellular protease/amidase domain
+Cre01.g005001	CPLD9	Conserved in the Plant Lineage and Diatoms
+Cre01.g005150	SGA1	Serine glyoxylate aminotransferase
+Cre01.g005200	NA	Putative triacylglycerol lipase
+Cre01.g005300	NA	Putative transposase
+Cre01.g005400	NA	Short-chain dehydrogenase/reductase
+Cre01.g005450	RSP10	Radial spoke protein 10
+Cre01.g005550	NA	ARF-like GTPase
+Cre01.g005600	FDX8	Ferredoxin
+Cre01.g005813	POB31	Proteome of basal body 31
+Cre01.g005850	FAP23	Cobalamin adenosyltransferase
+Cre01.g006050	LF3	Long Flagella protein 3
+Cre01.g006100	FDX7	Ferredoxin
+Cre01.g006150	NA	Putative chloroplast translation peptide-chain release factor 3
+Cre01.g006800	PIGA1	"Phosphatidylinositol N-acetylglucosaminyltransferase, catalytic subunit"
+Cre01.g006950	FBA1	"Fructose-1,6-bisphosphate aldolase"
+Cre01.g007000	NA	"ABC transporter, half"
+Cre01.g007050	CPLD11	Conserved in the Plant Lineage and Diatoms
+Cre01.g007051	RPL40	"Cytosolic 80S ribosomal protein L40, ubiquitin fusion"
+Cre01.g007350	MOT42	Predicted protein
+Cre01.g007500	NA	Sodium:solute symporter
+Cre01.g007550	NA	GT90 family protein 1
+Cre01.g007651	NA	RNA pseudouridine synthase
+Cre01.g007737	FBT1	Folate/pteridine transporter 1
+Cre01.g007850	NUO18	NADH:ubiquinone oxidoreductase subunit
+Cre01.g007950	CYP55B1	"Cytochrome P450, CYP55 superfamily, CYP55A family"
+Cre01.g008150	RPK1	RNA-polymerase-subunit kinase
+Cre01.g008650	CDK1	Cyclin-dependent kinase
+Cre01.g008850	NA	Histone-lysine N-methyltransferase
+Cre01.g009200	POB29	Proteome of basal body 29
+Cre01.g009250	TOP2	DNA topoisomerase II
+Cre01.g009350	AIH2	Agmatine iminohydrolase
+Cre01.g009400	NA	Sodium:solute symporter
+Cre01.g009450	NA	DnaJ-like protein
+Cre01.g009500	CDPK5	Calcium/calmodulin-dependent protein kinase
+Cre01.g009550	NA	N-acetyltransferase
+Cre01.g009650	BUG25	basal body protein
+Cre01.g009700	NA	Phosphoprotein phosphatase 2C-related
+Cre01.g009800	FAP289	Flagellar Associated Protein 289
+Cre01.g009900	NA	Chloroplast DnaJ-like protein 3
+Cre01.g009950	NEP1	NEP1-like protein
+Cre01.g010000	NA	Mitogen-Activated Protein Kinase
+Cre01.g010100	NA	N-acetyltransferase
+Cre01.g010250	NA	Phosphoprotein phosphatase 2C-related
+Cre01.g010350	LIPB1	Lipoate protein ligase B
+Cre01.g010400	FAP380	Flagellar Associated Membrane Protein 380
+Cre01.g010550	NA	Haloalkane dehalogenase-like hydrolase
+Cre01.g010700	SYP2	"Endosomal Qa-SNARE protein, Syntaxin7/Syx7/Pep12/Syp2-family (Qa.III.b)"
+Cre01.g010750	NA	RegA/Rls-like protein
+Cre01.g010864	NA	Homolog to bacterial PrfB peptide chain release factor
+Cre01.g010900	GAPA1	Glyceraldehyde-3-Phosphate Dehydrogenase A
+Cre01.g011000	RPL6	Cytosolic 80S ribosomal protein L6
+Cre01.g011100	NA	Terpenoid cylase
+Cre01.g011300	SCLP50	Serine carboxypeptidase
+Cre01.g011500	RPN11	26S proteasome regulatory subunit
+Cre01.g011901	ARS7	Arylsulfatase
+Cre01.g012050	NAR1F	Formate/nitrite transporter
+Cre01.g012100	ARS4	Arylsulfatase
+Cre01.g012150	MSRA4	"Peptide methionine-S-sulfoxide reductase, msrA-type"
+Cre01.g012500	NA	Similar to Prenylated Rab Acceptor Protein
+Cre01.g012600	PGM2	Phosphoglucomutase 2
+Cre01.g012650	NA	Voltage-gated potassium channel
+Cre01.g012700	NA	Voltage-gated potassium channel
+Cre01.g012750	NA	Voltage-gated potassium channel
+Cre01.g012800	FAP230	Flagellar Associated Protein 230
+Cre01.g012850	NA	Voltage-gated potassium channel
+Cre01.g013100	NA	Predicted extracellular protein
+Cre01.g013150	CGLD35	Conserved in the Green Lineage and Diatoms
+Cre01.g013300	DEG10	Deg protease
+Cre01.g013400	PIGS1	GPI transamidase component PIG-S
+Cre01.g013700	VDAC1	Voltage-dependent anion-selective channel protein
+Cre01.g013800	NA	Zinc finger containing protein
+Cre01.g013801	TCY1	Tocopherol cyclase 1
+Cre01.g014150	NA	MATE efflux family protein
+Cre01.g014250	OPR2	OctotricoPeptide Repeat protein 2
+Cre01.g014350	PRX5	"Peroxiredoxin, type II"
+Cre01.g014500	NA	Protein tyrosine kinase
+Cre01.g014650	PFH5	Prolyl 4-hydroxylase 5
+Cre01.g014800	CPL21	putative MutS type 2 DNA repair protein
+Cre01.g015000	NAGK1	N-acetyl-l-glutamate kinase
+Cre01.g015100	NA	Probable transposon-derived protein of Chlamydomonas-Specific family B
+Cre01.g015103	NA	Solute-binding protein-like adenylate cyclase
+Cre01.g015200	NA	"3',5'-cyclic-nucleotide phosphodiesterase"
+Cre01.g015250	POLD1	"DNA polymerase delta, catalytic subunit"
+Cre01.g015350	POR1	Light-dependent protochlorophyllide reductase
+Cre01.g015500	CGL91	Conserved in the Green Lineage
+Cre01.g015550	NA	2-dehydro-3-deoxyglucarate aldolase
+Cre01.g015700	NA	S-adenosyl-L-methionine-dependent methyltransferase
+Cre01.g015850	FAP68	Flagellar Associated Protein 68
+Cre01.g015950	CPL11	translation factor
+Cre01.g016050	PRP8	"Splicing factor, component of the U5 snRNP and of the spliceosome"
+Cre01.g016200	NA	MLO family protein
+Cre01.g016250	NA	MLO family protein
+Cre01.g016300	NA	Calmodulin-like protein
+Cre01.g016450	NA	SET domain protein
+Cre01.g016514	DLD2	Dihydrolipoamide dehydrogenase 2
+Cre01.g016600	PSBS1	chloroplast Photosystem II-associated 22 kDa protein
+Cre01.g016750	PSBS2	chloroplast Photosystem II-associated 22 kDa protein
+Cre01.g017050	NA	Mitochondrial substrate carrier protein
+Cre01.g017200	FKB99	"Peptidyl-prolyl cis-trans isomerase, FKBP-type"
+Cre01.g017250	NA	Chlorophyceae-specific protein
+Cre01.g017300	PRPS21	Chloroplast ribosomal protein S21
+Cre01.g017350	NA	Putative protein N-methyltransferase
+Cre01.g017450	POLA2	"DNA polymerase alpha, catalytic subunit"
+Cre01.g017600	NA	Putative quinoprotein
+Cre01.g017650	RIB30	Ribbon binding 30 kDa microtuble inner protein
+Cre01.g018000	RPA12	DNA-directed RNA polymerase I subunit A12.2
+Cre01.g018050	NA	NEF1-like protein
+Cre01.g018200	NA	Putative Acyl-CoA N-acyltransferase
+Cre01.g018400	ITPK2	"Inositol 1,3,4-trisphosphate 5/6-kinase"
+Cre01.g018500	NA	Holo-[acyl-carrier-protein] synthase
+Cre01.g018550	NA	Adenylate/guanylate cyclase
+Cre01.g018800	ATP6	Mitochondrial F1F0 ATP synthase subunit 6
+Cre01.g018850	NA	Exonuclease-Endonuclease-Phosphatase superfamily protein
+Cre01.g018950	DHS1	Deoxyhypusine synthase
+Cre01.g019100	HPR2	Hydroxypyruvate reductase 2
+Cre01.g019150	GCP4	Gamma tubulin interacting protein
+Cre01.g019200	NOP52	RRP1-like protein
+Cre01.g019250	SNE1	"GDP-D-mannose 3',5'-epimerase"
+Cre01.g019300	NA	Nucleotidyl cyclase
+Cre01.g019450	SCE3	SUMO-conjugating enzyme
+Cre01.g019550	NA	ankryin repeat containing protein
+Cre01.g019700	PAP7	Class-II RNA nucleotidyl transferase 7
+Cre01.g019850	FTSH3	FtsH-like ATPase/metalloprotease
+Cre01.g019900	FAP384	Flagellar Associated Protein 384
+Cre01.g019950	NA	DnaJ-like protein
+Cre01.g020223	FUM2	Fumarate hydratase 2
+Cre01.g020264	ATG6	Autophagy-related protein
+Cre01.g020305	SDH4	Succinate dehydrogenase subunit D
+Cre01.g020350	SDH3	Succinate dehydrogenase subunit b560
+Cre01.g020575	HSP22D	Heat shock protein 22D
+Cre01.g020850	NA	Adenylate/guanylate cyclase
+Cre01.g020918	PREP1	Presequence protease 1
+Cre01.g021050	TIM22A	translocase of inner mitochondrial membrane 22 homolog
+Cre01.g021150	TMU1	tRNA (uracil-5-)-methyltransferase
+Cre01.g021200	CGL47	conserved protein with F-box domain
+Cre01.g021251	ARG7	Argininosuccinate lyase
+Cre01.g021400	NA	Pre-mRNA splicing factor
+Cre01.g021450	TPR4	Tetratricopeptide-repeat protein 4
+Cre01.g021600	NA	DEAD-box RNA helicase
+Cre01.g021700	NA	Adenylate/guanylate cyclase
+Cre01.g021850	NA	DEAD/DEAH box helicase
+Cre01.g021900	NA	RNA pseudouridine synthase
+Cre01.g022000	NA	Putative fidgetin homolog
