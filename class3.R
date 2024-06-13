@@ -3,9 +3,6 @@
 # Author: Sean D. Gallaher
 
 
-# set working directory
-setwd("~/Desktop/R_Boot_Camp/")
-
 # load a data file
 # use header = TRUE to indicate that the first row should by used as column headings
 # use sep = "\t" to indicate that the columns of data are separated by tabs 
