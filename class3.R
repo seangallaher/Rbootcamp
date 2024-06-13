@@ -116,10 +116,29 @@ myDataRebound<-cbind(myDataConOnly, myDataExpOnly)
 # here we have a df of FPKMs
 # and a second one of annotations
 
+# load the two data frames
 fpkms<-read.table("Rbootcamp/class3.RNAseq_data.txt", header = TRUE, sep = "\t")
 annos<-read.table("Rbootcamp/class3.annotations.txt", header = TRUE, sep = "\t")
 
-fpkmsAnnotated<-merge(annos, fpkms, by.x = "Cre_GID", by.y = "GID", all.y = TRUE)
 
+# to merge annos (x) and fpkms (y), 
+# specify the column name for 
+# each that contains the info
+# to merge on (gene IDs)
+fpkmsAnnotated<-merge(x = annos, y = fpkms, by.x = "Cre_GID", by.y = "GID")
 
+# This only produces rows with a match in both. 
+# How many rows matched both?
+dim(fpkmsAnnotated)
 
+# But if you want to keep all of the
+# rows, from one or both data frame
+# add all = TRUE for keep all from x and y
+# or all.x to keep all of x or all.y for all of y
+# Here we want to keep all of the
+# FPKM data (n = 10)
+fpkmsAnnotated<-merge(x = annos, y = fpkms, by.x = "Cre_GID", by.y = "GID", all.y = TRUE)
+
+# Check if it worked. There should be
+# 10 rows if it did.
+dim(fpkmsAnnotated)
